@@ -122,5 +122,38 @@ import java.util.Scanner;
       //    }
       // }
 
+
+                        //LOOPS
+      //                   //FOR LOOP
+      // for(int var=0;var<10;var++){
+      //    System.out.println("Hello World");
+      // }
+
+      //                   //WHILE LOOP
+      // int i=0;
+      // while(i<11){
+      //    System.out.println(i);
+      //    i++;
+      // }
+
+      //                      // DO WHILE
+      // int i=1;
+      // do{
+      //    System.out.println(i);
+      //    i++;
+      // } while(i<11);
+
+                          //FIND SUM OF N NATURAL NUMBERS
+      int sum=0;
+      int a=1;
+      System.out.print("i: ");
+      int i=sc.nextInt();
+      while(a<=i){
+         sum+=a;
+         a++;
+
+      }
+      System.out.println(sum);
+
     } 
  }
