@@ -62,37 +62,65 @@ import java.util.Scanner;
       //       System.out.println(" is greater");
       //    }
 
-      System.out.print("Press button(1,2,3): ");
-      int button=sc.nextInt();
+      // System.out.print("Press button(1,2,3): ");
+      // int button=sc.nextInt();
 
-      // if(button==1){
-      //    System.out.println("Namaste");
-      // } else if(button==2){
-      //    System.out.println("Hello");
-      // } else if(button==3){
-      //    System.out.println("Bonjour");
-      // } else {
-      //    System.out.println("Invalid button");
-      // }
+//       // if(button==1){
+//       //    System.out.println("Namaste");
+//       // } else if(button==2){
+//       //    System.out.println("Hello");
+//       // } else if(button==3){
+//       //    System.out.println("Bonjour");
+//       // } else {
+//       //    System.out.println("Invalid button");
+//       // }
 
                         //SWITCH
-      switch(button){
-         case 1: {
-            System.out.println("Namaste");
-            break;
-         }
-         case 2:{
-            System.out.println("Hello");
-            break;
-         }
-         case 3: {
-            System.out.println("Bonjour");
-            break;
-         }
-         default: {
-            System.out.println("Invalid button");
-         }
-      }
+      // switch(button){
+      //    case 1: {
+      //       System.out.println("Namaste");
+      //       break;
+      //    }
+      //    case 2:{
+      //       System.out.println("Hello");
+      //       break;
+      //    }
+      //    case 3: {
+      //       System.out.println("Bonjour");
+      //       break;
+      //    }
+      //    default: {
+      //       System.out.println("Invalid button");
+      //    }
+      // }
       
+                  //CALCULATOR
+      // System.out.print("a: ");
+      // int a=sc.nextInt();
+      // System.out.print("b: ");
+      // int b=sc.nextInt();
+      // String opt=sc.next();
+      // switch(opt){
+      //    case "sum": {
+      //       System.out.println(a+b);
+      //       break;
+      //    }
+      //    case "diff": {
+      //       System.out.println(a-b);
+      //       break;
+      //    }
+      //    case "div":{
+      //       System.out.println(a/b);
+      //       break;
+      //    }
+      //    case "rem":{
+      //       System.out.println(a%b);
+      //       break;
+      //    }
+      //    default: {
+      //       System.out.println("invalid operation");
+      //    }
+      // }
+
     } 
  }
