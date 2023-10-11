@@ -28,9 +28,29 @@ public class Bit_manipulation{
 
         //  3-clear (used to clear the bit value to "0" at any specific position of 
         //   binary  form of number)
+        //Q Clear 3rd bit(position-2) of a num n=0101
+        int pos_clear=2;
+        int bitmask_clear=1<<pos_clear;
+        int new_num_clear= ~(bitmask_clear) & n;
+
+        System.out.println("Cleared 3rd bit");
+        System.out.println(new_num_clear);
 
         //  4-update (used to convert the bit value from "0" to "1" or "1" to "0")
-         int opt =sc.nextInt();
+        //Q update the 4th bit(pos-3) of a number n to 0.(n=0110)
+        int opt =sc.nextInt();
+        int no=6;
+        int pos_s=3;
+        int bitmask=1<<pos_s;
+        if(opt==1){
+            //set
+            int newnum_s=bitmask | no;
+            System.out.println(newnum_s);
+        } else if(opt==0){
+            //clear
+            int newnum_g= ~(bitmask) & n;
+            System.out.println(newnum_g);
+        }
 
 
     }
